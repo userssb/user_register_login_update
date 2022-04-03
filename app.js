@@ -120,3 +120,5 @@ app.put("/change-password", async (request, response) => {
     console.log(`Error : ${e.message}`);
   }
 });
+
+module.exports=app;
